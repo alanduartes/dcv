@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    width: 100%;
+}
+
+.h-info {
+    text-align: center;
+    padding: 30px;
+    width: 100%;
+    color: #22313F;
+    border-bottom: solid 1px #22313F;
+}
+
+.menu {
+    max-width: 100%;
+    width: 100%;
+}
+
+.menu-list {
+    list-style: none;
+}
+
+.menu-list li {
+    border: solid 1px #000;
+    width: 20%;
+    height: 50px;
+}
