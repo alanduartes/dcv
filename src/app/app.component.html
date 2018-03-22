@@ -1,16 +1,17 @@
 <main class="container">
-    <header class="h-info">
-        <h3>{{ name }}</h3>
+    <section class="me">
+        <h2>{{ name }}</h2>
         <p>{{ email }}</p>
         <p>{{ fone }}</p>
-    </header>
+    </section>
+    
     <nav class="menu">
-        <ul class="container menu-list">
-            <li class="Education" (click)="toggle('E')"></li>
-            <li class="Experience" (click)="toggle('X')"></li>
-            <li calss="Courses" (click)="toggle('C')"></li>
-            <li class="Knowledge" (click)="toggle('K')"></li>
-            <li class="Languages" (click)="toggle('L')"></li>
+        <ul class="menu-list">
+            <li class="education" (click)="toggle('E')"></li>
+            <li class="experience" (click)="toggle('X')"></li>
+            <li class="courses" (click)="toggle('C')"></li>
+            <li class="knowledge" (click)="toggle('K')"></li>
+            <li class="languages" (click)="toggle('L')"></li>
         </ul>
     </nav>
 </main>
