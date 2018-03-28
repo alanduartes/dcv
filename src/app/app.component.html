@@ -1,17 +1,55 @@
 <main class="container">
+    
+    <aside>Angular | HTML5 | CSS3</aside>
+    
     <section class="me">
         <h2>{{ name }}</h2>
         <p>{{ email }}</p>
         <p>{{ fone }}</p>
     </section>
+
+    <section class="description" [ngStyle]="style">
+        
+        <h4 (click)="toggleDescription()">Voltar para Início</h4>
+        <section [class.hide-description]="selected != 'e'">
+            <app-school></app-school>
+        </section>
+
+        <section [class.hide-description]="selected != 'x'">
+            <app-experience></app-experience>
+        </section>
+
+        <section [class.hide-description]="selected != 'c'">
+            <app-courses></app-courses>
+        </section>
+
+        <section [class.hide-description]="selected != 'k'">
+            <app-knowledge></app-knowledge>
+        </section>
+
+        <section [class.hide-description]="selected != 'l'">
+            <app-language></app-language>
+        </section>
+
+    </section>
     
     <nav class="menu">
         <ul class="menu-list">
-            <li class="education" (click)="toggle('E')"></li>
-            <li class="experience" (click)="toggle('X')"></li>
-            <li class="courses" (click)="toggle('C')"></li>
-            <li class="knowledge" (click)="toggle('K')"></li>
-            <li class="languages" (click)="toggle('L')"></li>
+            <li class="education container" (click)="toggleDescription('e')">
+                <fa [name]="'graduation-cap'" [size]=2></fa>
+            </li>
+            <li class="experience container" (click)="toggleDescription('x')">
+                <fa [name]="'briefcase'" [size]=2></fa>
+            </li>
+            <li class="courses container" (click)="toggleDescription('c')">
+                <fa [name]="'pencil'" [size]=2></fa>
+            </li>
+            <li class="knowledge container" (click)="toggleDescription('k')">
+                <fa [name]="'book'" [size]=2></fa>
+            </li>
+            <li class="languages container" (click)="toggleDescription('l')">
+                <fa [name]="'globe'" [size]=2></fa>
+            </li>
         </ul>
     </nav>
 </main>
