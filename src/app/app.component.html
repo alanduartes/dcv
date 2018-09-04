@@ -10,11 +10,11 @@
 
     <section class="description" [ngStyle]="style">
         
-        <h4 (click)="toggleDescription()">Voltar para Início</h4>
+        <h4 (click)="toggleDescription()"><</h4>
         <section [class.hide-description]="selected != 'e'">
             <app-school></app-school>
         </section>
-
+        
         <section [class.hide-description]="selected != 'x'">
             <app-experience></app-experience>
         </section>

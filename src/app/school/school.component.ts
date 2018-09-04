@@ -7,6 +7,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SchoolComponent implements OnInit {
 
+  schoolData = [
+    {
+      'instituicao': 'Universidade Federal do Paraná',
+      'sigla': 'UFPR',
+      'curso' : 'Tecnologia em análise e Desenvolvimento de Sistemas',
+      'conclusao': '2013',
+      'icon' : 'assets/images/icon/ufpr.png',
+      'tcc': ''
+    }
+  ];
+
   constructor() { }
 
   ngOnInit() {
