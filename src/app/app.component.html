@@ -8,31 +8,6 @@
         <p>{{ fone }}</p>
     </section>
 
-    <section class="description" [ngStyle]="style">
-        
-        <h4 (click)="toggleDescription()"><</h4>
-        <section [class.hide-description]="selected != 'e'">
-            <app-school></app-school>
-        </section>
-        
-        <section [class.hide-description]="selected != 'x'">
-            <app-experience></app-experience>
-        </section>
-
-        <section [class.hide-description]="selected != 'c'">
-            <app-courses></app-courses>
-        </section>
-
-        <section [class.hide-description]="selected != 'k'">
-            <app-knowledge></app-knowledge>
-        </section>
-
-        <section [class.hide-description]="selected != 'l'">
-            <app-language></app-language>
-        </section>
-
-    </section>
-    
     <nav class="menu">
         <ul class="menu-list">
             <li class="education container" (click)="toggleDescription('e')">
