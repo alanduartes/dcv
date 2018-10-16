@@ -8,6 +8,11 @@ export class Profile
     weight: number = 0;
     smoker: boolean = false;
 
+    photo1: string = '';
+    photo2: string = '';
+    photo3: string = '';
+    photo4: string = '';
+
     professional = [];
     educational = [];
     courses = [];
@@ -31,6 +36,11 @@ export class Profile
         this.height = 1.76;
         this.weight = 73;
         this.smoker = false;
+
+        this.photo1 = '1.jpg';
+        this.photo2 = '2.jpg';
+        this.photo3 = '3.jpg';
+        this.photo4 = '4.jpg';
     }
 
     initProfessionalProfile()
