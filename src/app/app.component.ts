@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Profile } from './models/profile';
 
 @Component({
   selector: 'app-root',
@@ -7,8 +8,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   
-  name = 'Alan Duarte dos Santos';
-  email = 'alanduartes@gmail.com';
-  fone = '(41) 9 9667-3259';
+  profile: Profile = new Profile();
+  session = localStorage.setItem('profile', JSON.stringify(this.profile));
 
 }

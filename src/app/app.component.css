@@ -3,7 +3,7 @@ aside {
 }
 
 main {
-    background: linear-gradient( rgba(0,0,0,.4), rgba(0,0,0,1) ),
+    background: linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,1) ),
                 url(../assets/images/floripa.png) no-repeat fixed;
     background-size: cover;
     width: 100%;
@@ -32,11 +32,4 @@ main {
     font-size: 2em;
     margin-right: 10px;
     color: white;
-}
-
-.teste {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background-color: white;
 }
