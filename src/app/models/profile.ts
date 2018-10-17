@@ -29,7 +29,7 @@ export class Profile
 
     initProfile()
     {
-        this.name = 'Alan Duarte dos Santos';
+        this.name = 'ALAN DUARTE';
         this.email = 'alanduartes@gmail.com';
         this.phone = '(41) 9 9667-3259';
         this.birthDate = new Date('1989-09-25');
