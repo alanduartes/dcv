@@ -1,10 +1,18 @@
-<div class="container wrap-profile">
-    
-    <div class="selfpic">
-        <img src="assets/images/me/{{profile.photo1}}" class="pic frontpic pic-started">
-        <img src="assets/images/me/{{profile.photo2}}" class="pic leftpic">
-        <img src="assets/images/me/{{profile.photo3}}" class="pic backpic">
-        <img src="assets/images/me/{{profile.photo4}}" class="pic rightpic">
-    </div>
-
+<div class="wrap-profile container">
+	<h1>Experiências Profissionais</h1>
+	<br>
+	<section *ngFor="let pro of profile.professional" class="professional-info">
+		<div class="container wrap-info">
+			<div class="ico-company">
+				sdf
+			</div>
+			<div class="info-experience">
+				<h3>{{ pro.company }}</h3>
+				<p>{{ pro.function }}</p>
+				<p>{{ pro.description }}</p>
+				<p>{{ pro.start | date : 'dd/MM/yyyy'}}</p>
+				<p>{{ pro.end | date : 'dd/MM/yyyy'}}</p>
+			</div>
+		</div>
+	</section>
 </div>

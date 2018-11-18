@@ -24,6 +24,8 @@ export class Player extends Person
 	{
 		if (this.posY > y && this.clicked) {
 			this.posY = this.posY - 2;
+		} else {
+			this.clicked = false;
 		}
 	}
 }

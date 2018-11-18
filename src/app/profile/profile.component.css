@@ -5,12 +5,23 @@
     background-color: white;
 }
 
-.pic {
-    max-width: 100%;
-    height: 100%;
-    display: none;
+.professional-info {
+	width: 50%;
+	align-self: flex-start;
+	text-align: justify;
+	align-content: center;
+	justify-content: center;
 }
 
-.pic-started {
-    display: block;
+.wrap-info {
+	width: 100%;
+	align-items: center;
+}
+
+.ico-company {
+	width: 20%;
+}
+
+.info-experience {
+	width: 80%;
 }

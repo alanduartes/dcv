@@ -52,7 +52,7 @@ export class Profile
                 function: 'Programador PHP',
                 start: new Date('2015-10-01'),
                 end: null,
-                description: ''
+                description: "Desenvolvimento de novas features e manutenção das lojas (e-commerce) e de sistemas internos para controle da produção da empresa em PHP com Zend Framework 1 e 2. SGBD MySQL – Após um pouco mais de 1 ano de empresa, recebi a oportunidade de trabalhar na equipe de B.I onde tive contato com a linguagem R para realizar tarefas de ETL."
             },
             {
                 icoCompany: '',
@@ -60,7 +60,7 @@ export class Profile
                 function: 'Programador PHP',
                 start: new Date('2014-09-01'),
                 end: new Date('2015-09-01'),
-                description: ''
+                description: "Correção de bugs e novos recursos para um ERP (PHP). Análise e alterações no Banco de Dados (MySql) e nas views. Ambiente Windows."
             },
             {
                 icoCompany: '',
@@ -68,7 +68,7 @@ export class Profile
                 function: 'Programador PHP',
                 start: new Date('2012-10-01'),
                 end: new Date('2014-07-01'),
-                description: ''
+                description: "Desenvolvimento de sistemas em PHP com banco de dados Oracle e MySql para uso interno dos funcionários; Modelagem de dados; desenvolvimento e manutenção do site. Rotina de trabalho em ambiente Linux, distribuição Ubuntu."
             },
             {
                 icoCompany: '',
@@ -76,7 +76,7 @@ export class Profile
                 function: 'Estagiário',
                 start: new Date('2011-10-01'),
                 end: new Date('2012-09-01'),
-                description: ''
+                description: "Auxílio no desenvolvimento de aplicações Java EE, C++ utilizando os SGBDs Oracle, Postgres, teste de aplicações e análise de código."
             }
         ];
     }
